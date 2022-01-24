@@ -2,8 +2,12 @@
 /*font-family: 'Abel', sans-serif;*/
 /*font-family: 'Anton', sans-serif;*/
 
+* {
+    box-sizing: border-box;
+}
 
 body {
+    width: 100%;
     background-color: #E6E6E6;
     position: relative;
     font-family: 'Abel', sans-serif;
@@ -11,6 +15,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Anton', sans-serif;
+}
+
+nav {
+    margin-top: 15px;
 }
 
 #logo {
@@ -27,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 55px;
     background-color: #F0F0F0;
     position: absolute;
-    top: 25px;
+    top: 10px;
 }
 
 nav p {
@@ -55,44 +63,40 @@ ul li {
     margin: 1em 0;
 }
 
-.spots {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.spots div {
+.spots h4 {
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    width: 128px;
     height: 128px;
-    flex-basis: calc(50% - 16px);
     border: 8px solid white;
     border-radius: 100px;
-    margin: 8px;
 }
 
-.spots div:nth-of-type(1) {
+.spots div:nth-of-type(1) h4{
     background-color: #E6563B;
 }
 
-.spots div:nth-of-type(2) {
+.spots div:nth-of-type(2) h4 {
     background-color: #EB9D3A;
 }
 
-.spots div:nth-of-type(3) {
+.spots div:nth-of-type(3) h4 {
     background-color: #7CB06C;
 }
 
-.spots div:nth-of-type(4) {
+.spots div:nth-of-type(4) h4{
     background-color: #00ABA9;
 }
 
 .images {
     text-align: center;
+    margin: 3em 1em 1.5em;
 }
 
 .images img {
+    margin-top: 1em;
     border: 8px solid lightgray;
     border-radius: 5px;
     width: 288px;
@@ -100,12 +104,39 @@ ul li {
 
 .img-info {
     display: flex;
-
+    margin-top: 0;
 }
 
-.img-info h5 {
+.img-info p {
     text-align: left;
     flex-grow: 1;
     align-self: center;
     margin: 0;
+}
+
+.img-info h6 {
+    margin: 0 .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18px;
+    width: 18px;
+    border-radius: 20px;
+    font-size: 8px;
+}
+
+.img-info div:nth-of-type(1) h6 {
+    background-color: #E6563B;
+}
+
+.img-info div:nth-of-type(2) h6 {
+    background-color: #EB9D3A;
+}
+
+.img-info div:nth-of-type(3) h6 {
+    background-color: #7CB06C;
+}
+
+.img-info div:nth-of-type(4) h6 {
+    background-color: #00ABA9;
 }
