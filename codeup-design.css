@@ -18,7 +18,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav {
-    margin-top: 15px;
+    margin-top: 5px;
+    position: relative;
 }
 
 #logo {
@@ -35,7 +36,8 @@ nav {
     height: 55px;
     background-color: #F0F0F0;
     position: absolute;
-    top: 10px;
+    top: 20px;
+    left: -2px
 }
 
 nav p {
@@ -56,7 +58,6 @@ ul li {
 
 .label {
     text-align: center;
-    margin: 1em;
 }
 
 .label h1, h3, div {
@@ -92,7 +93,7 @@ ul li {
 
 .images {
     text-align: center;
-    margin: 3em 1em 1.5em;
+    margin: 3em 0 1.5em;
 }
 
 .images img {
@@ -139,4 +140,16 @@ ul li {
 
 .img-info div:nth-of-type(4) h6 {
     background-color: #00ABA9;
+}
+
+@media (min-width: 425px) {
+   #logo {
+       order: 1;
+   }
+    nav p {
+        order: 3;
+    }
+    nav ul {
+        order: 2;
+    }
 }
