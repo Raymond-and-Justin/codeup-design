@@ -8,33 +8,41 @@
     <link rel="stylesheet" href="/codeup-design.css">
     <link rel="stylesheet" href="bootstrap-grid-lec.css">
 </head>
-<body class="container-fluid">
-<div id="banner"></div>
-<header>
-
-    <nav class="row">
-        <div class="col-md-6">
-        <img  src="assets/logo.png" alt="logo" id="logo">
-        </div>
-        <p class="col-md-12">codeup design</p>
-        <ul class="d-flex justify-content-center col-md-12">
-            <li>SERVICE</li>
-            <li>WORK</li>
-            <li>BLOG</li>
-            <li>CONTACT</li>
+<body>
+<header class="d-flex flex-wrap align-content-center">
+    <img src="assets/logo.png" alt="" id="logo">
+    <nav class="d-none d-sm-flex">
+        <ul class="d-flex mx-2 mb-0">
+            <li class="mx-4">SERVICES</li>
+            <li class="mx-5">WORK</li>
         </ul>
+        <ul class="d-flex justify-content-end mx-2 mb-0">
+            <li class="mx-4">BLOG</li>
+            <li class="mx-5">CONTACT</li>
+        </ul>
+        <p class="d-none d-lg-block">codeup design</p>
     </nav>
 </header>
 
-<main>
+<main class="container">
+    <div class="mobile-header">
+        <p>codeup design</p>
+        <ul class="row justify-content-center p-0 d-sm-none">
+            <li class="mx-1">SERVICES</li>
+            <li class="mx-1">WORK</li>
+            <li class="mx-1">BLOG</li>
+            <li class="mx-1">CONTACT</li>
+        </ul>
+    </div>
+
     <div class="label">
         <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
         <h3>FROM PARK CITY, UTAH</h3>
         <div class="row spots">
-            <div class="col-6"><h4>DESIGN</h4></div>
-            <div class="col-6"><h4>DEVELOP</h4></div>
-            <div class="col-6"><h4>SUPPORT</h4></div>
-            <div class="col-6"><h4>HOST</h4></div>
+            <div class="col-6 col-sm-3"><h4>DESIGN</h4></div>
+            <div class="col-6 col-sm-3"><h4>DEVELOP</h4></div>
+            <div class="col-6 col-sm-3"><h4>SUPPORT</h4></div>
+            <div class="col-6 col-sm-3"><h4>HOST</h4></div>
         </div>
     </div>
 
@@ -94,7 +102,7 @@
         </div>
     </div>
 </main>
-
+</div>
 
 <!--jsdelivr here-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
