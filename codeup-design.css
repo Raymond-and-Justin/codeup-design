@@ -186,14 +186,14 @@ i {
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
 
     #med-list {
         justify-content: center;
     }
 
     #logo {
-        left: 17%;
+        left: 14%;
         transform: translate(-50%, -50%);
     }
 
