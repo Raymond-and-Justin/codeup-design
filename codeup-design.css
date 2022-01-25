@@ -4,7 +4,6 @@
 
 * {
     box-sizing: border-box;
-
 }
 
 body {
@@ -39,6 +38,18 @@ header {
 
 nav {
     flex-basis: 100%;
+}
+
+nav p {
+    font-size: 30px;
+}
+
+hr {
+    width: 75%;
+}
+
+#med-list {
+    font-size: 18px;
 }
 
 header ul {
@@ -92,13 +103,12 @@ ul li {
     background-color: #00ABA9;
 }
 
-.images {
+.images p {
     text-align: center;
-    margin: 1.5em 0 1.5em;
 }
 
 .images img {
-    margin-top: 1em;
+    margin: 0;
     border: 8px solid lightgray;
     border-radius: 5px;
     width: 100%;
@@ -143,3 +153,55 @@ ul li {
     background-color: #00ABA9;
 }
 
+.last img {
+    margin-right: 11px;
+    height: 48px;
+    width: 48px;
+    border: 2px solid lightgray;
+
+}
+
+i {
+    color: #1DA1F2;
+}
+
+@media (min-width: 768px) {
+    #med-list {
+        justify-content: flex-end;
+    }
+
+    #logo {
+        left: 10%;
+        transform: translate(-50%, -50%);
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .images p {
+        font-size: 12px;
+        text-align: left;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 992px) {
+
+    #med-list {
+        justify-content: center;
+    }
+
+    #logo {
+        left: 17%;
+        transform: translate(-50%, -50%);
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .images p {
+        font-size: 16px;
+    }
+}
