@@ -11,14 +11,14 @@
 <body>
 <header class="d-flex flex-wrap align-content-center">
     <img src="assets/logo.png" alt="" id="logo">
-    <nav class="d-none d-sm-flex">
-        <ul class="d-flex mx-2 mb-0">
-            <li class="mx-4">SERVICES</li>
-            <li class="mx-5">WORK</li>
-        </ul>
+    <nav class="d-none d-sm-flex ">
         <ul class="d-flex justify-content-end mx-2 mb-0">
-            <li class="mx-4">BLOG</li>
-            <li class="mx-5">CONTACT</li>
+            <li class="mr-4">SERVICES</li>
+            <li class="mr-5 pr-3">WORK</li>
+        </ul>
+        <ul class="d-flex mx-2 mb-0">
+            <li class="ml-5 pl-3">BLOG</li>
+            <li class="ml-3">CONTACT</li>
         </ul>
         <p class="d-none d-lg-block">codeup design</p>
     </nav>
@@ -28,79 +28,87 @@
     <div class="mobile-header">
         <p>codeup design</p>
         <ul class="row justify-content-center p-0 d-sm-none">
-            <li class="mx-1">SERVICES</li>
-            <li class="mx-1">WORK</li>
-            <li class="mx-1">BLOG</li>
-            <li class="mx-1">CONTACT</li>
+            <li class="mx-1"><a href="">SERVICES</a></li>
+            <li class="mx-1"><a href="">WORK</a></li>
+            <li class="mx-1"><a href="">BLOG</a></li>
+            <li class="mx-1"><a href="">CONTACT</a></li>
         </ul>
     </div>
 
     <div class="label">
         <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
         <h3>FROM PARK CITY, UTAH</h3>
-        <div class="row spots">
-            <div class="col-6 col-sm-3"><h4>DESIGN</h4></div>
-            <div class="col-6 col-sm-3"><h4>DEVELOP</h4></div>
-            <div class="col-6 col-sm-3"><h4>SUPPORT</h4></div>
-            <div class="col-6 col-sm-3"><h4>HOST</h4></div>
+        <div class="spots d-flex flex-wrap justify-content-center">
+            <div class="d-flex justify-content-center m-1"><h4>DESIGN</h4></div>
+            <div class="d-flex justify-content-center m-1"><h4>DEVELOP</h4></div>
+            <div class="d-flex justify-content-center m-1"><h4>SUPPORT</h4></div>
+            <div class="d-flex justify-content-center m-1"><h4>HOST</h4></div>
         </div>
     </div>
 
     <div class="images">
         <p>SELECTED WORK</p>
-        <div>
-            <img src="assets/images/apple-ipad.jpg" alt="">
-            <div class="img-info">
-                <p>FEATURED PROJECT</p>
-                <div><h6>D</h6></div>
-                <div><h6>D</h6></div>
-                <div><h6>S</h6></div>
-                <div><h6>H</h6></div>
+        <div class="row">
+            <div class="d-flex flex-column col-sm-6">
+                <img class="" src="assets/images/apple-ipad.jpg" alt="">
+                <div class="img-info d-flex">
+                    <p>FEATURED PROJECT</p>
+                    <div><h6>D</h6></div>
+                    <div><h6>D</h6></div>
+                    <div><h6>S</h6></div>
+                    <div><h6>H</h6></div>
+                </div>
+            </div>
+            <div class="flex-column d-none d-sm-flex col-sm-6">
+                <img class="" src="assets/images/macbook.jpg" alt="">
+                <div class="img-info d-flex">
+                    <p class="">FEATURED PROJECT</p>
+                    <div><h6>D</h6></div>
+                    <div><h6>D</h6></div>
+                    <div><h6>S</h6></div>
+                    <div><h6>H</h6></div>
+                </div>
             </div>
         </div>
-        <div class="d-none d-md-flex">
-            <img src="" alt="">
-            <h5>FEATURED PROJECT</h5>
-            <div><p>D</p></div>
-            <div><p>D</p></div>
-            <div><p>S</p></div>
-            <div><p>H</p></div>
+        <div class="row">
+            <div class="d-flex flex-column col-sm-6">
+                <img class="" src="assets/images/man.jpg" alt="">
+                <div class="img-info d-flex">
+                    <p>FEATURED PROJECT</p>
+                    <div><h6>D</h6></div>
+                    <div><h6>D</h6></div>
+                    <div><h6>S</h6></div>
+                    <div><h6>H</h6></div>
+                </div>
+            </div>
+            <div class="flex-column d-none d-sm-flex col-sm-6">
+                <img class="" src="assets/images/security.jpg" alt="">
+                <div class="img-info d-flex">
+                    <p class="">FEATURED PROJECT</p>
+                    <div><h6>D</h6></div>
+                    <div><h6>D</h6></div>
+                    <div><h6>S</h6></div>
+                    <div><h6>H</h6></div>
+                </div>
+            </div>
         </div>
-        <div class="d-none d-md-flex">
-            <img src="" alt="">
-            <h5>FEATURED PROJECT</h5>
-            <div><p>D</p></div>
-            <div><p>D</p></div>
-            <div><p>S</p></div>
-            <div><p>H</p></div>
-        </div>
-        <div class="d-none d-md-flex">
-            <img src="" alt="">
-            <h5>FEATURED PROJECT</h5>
-            <div><p>D</p></div>
-            <div><p>D</p></div>
-            <div><p>S</p></div>
-            <div><p>H</p></div>
-        </div>
-    </div>
-
-    <div class="d-none d-md-flex">
-        <div>
-            1
-        </div>
-        <div>
-            2
-        </div>
-        <div>
-            3
-        </div>
-        <div>
-            4
-        </div>
-        <div>
-            5
-        </div>
-    </div>
+            <div class="d-none d-md-flex">
+                <div>
+                    1
+                </div>
+                <div>
+                    2
+                </div>
+                <div>
+                    3
+                </div>
+                <div>
+                    4
+                </div>
+                <div>
+                    5
+                </div>
+            </div>
 </main>
 </div>
 
