@@ -75,7 +75,7 @@ ul li {
     margin: 1em 0;
 }
 
-.spots h4 {
+.spots h5 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,19 +87,19 @@ ul li {
     margin: 0;
 }
 
-.spots div:nth-of-type(1) h4 {
+.spots div:nth-of-type(1) h5 {
     background-color: #E6563B;
 }
 
-.spots div:nth-of-type(2) h4 {
+.spots div:nth-of-type(2) h5 {
     background-color: #EB9D3A;
 }
 
-.spots div:nth-of-type(3) h4 {
+.spots div:nth-of-type(3) h5 {
     background-color: #7CB06C;
 }
 
-.spots div:nth-of-type(4) h4 {
+.spots div:nth-of-type(4) h5 {
     background-color: #00ABA9;
 }
 
